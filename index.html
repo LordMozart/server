@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Minecraft Server Mods</title>
+    <title>Minecraft Server</title>
     <style>
         body {
             background-color: #2b2b2b;
@@ -27,23 +27,31 @@
         .download-section {
             margin-top: 30px;
         }
-        a.download-btn {
+        a.download-link {
             display: inline-block;
             background-color: #ffcc00;
             color: #000;
-            padding: 10px 20px;
+            padding: 15px 30px;
             text-decoration: none;
             font-size: 18px;
             border-radius: 5px;
             box-shadow: 0 5px #d4a600;
             transition: background-color 0.3s ease;
         }
-        a.download-btn:hover {
+        a.download-link:hover {
             background-color: #e6b800;
         }
-        footer {
-            margin-top: 50px;
-            color: #888;
+        .server-info {
+            margin-top: 40px;
+        }
+        .server-ip {
+            font-size: 22px;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            color: #ffcc00;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -51,12 +59,16 @@
 
     <div class="container">
         <h1>Welcome to Our Minecraft Server!</h1>
-        <p>To join our server, you'll need to download the following mod file:</p>
+        <p>To join our server, please download the required mods using the link below:</p>
 
         <div class="download-section">
-            <h2>Download the Mod</h2>
-            <p>Click the button below to download the mod required to join our Minecraft server.</p>
-            <a class="download-btn" href="mods/your-mod-file.jar" download>Download Mod</a>
+            <a class="download-link" href="https://drive.google.com/your-drive-link" target="_blank">Download Mods</a>
+        </div>
+
+        <div class="server-info">
+            <h2>Server IP</h2>
+            <p>Use the following IP to join our Minecraft server:</p>
+            <div class="server-ip">123.456.789.123</div>
         </div>
     </div>
 
